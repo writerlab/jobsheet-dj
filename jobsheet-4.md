@@ -43,7 +43,7 @@ Buat Views ```registrasi()``` di file ```app_pengaduan/views.py``` agar me-rende
 from django.shortcuts import render
 
 def registrasi(request):
-  template = "login.html"
+  template = "registrasi.html"
   return render(request, template)
 ```
 
