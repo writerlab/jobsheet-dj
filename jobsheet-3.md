@@ -2,7 +2,7 @@
 ## Membuat Apps
 masuk ke folder projek ```Desktop/pengaduan/```
 ```python
-cd Desktop/perpus
+cd Desktop/pengaduan
 ```
 
 buat apps: ```app_pengaduan```
