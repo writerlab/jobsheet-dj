@@ -47,10 +47,6 @@ def registrasi(request):
   return render(request, template)
 ```
 
-Jangan lupa *save* dan jalankan *server*-nya.
-```python
-python manage.py runserver
-```
 
 Buat URL baru untuk mengakses halaman registrasi.
 Buka file ```pengaduan/urls.py```.
@@ -62,6 +58,11 @@ urlpatterns = [
   ...
   path('registrasi/', registrasi),
 ]
+```
+
+Jangan lupa *save* dan jalankan *server*-nya.
+```python
+python manage.py runserver
 ```
 
 Buka [http://127.0.0.1:8000/registrasi](http://127.0.0.1:8000/registrasi).
