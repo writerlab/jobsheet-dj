@@ -43,12 +43,6 @@ class Pengaduan(models.Model):
 
 
 class Tanggapan(models.Model):
-  pilih_status = (
-    ('pending', 'pending'),
-    ('proses', 'proses'),
-    ('selesai', 'selesai'),
-  )
-
   pengaduan   = models.ForeignKey(Pengaduan, on_delete=models.CASCADE)
   tanggal     = models.DateField(auto_now=True)
   tanggapan   = models.TextField()
